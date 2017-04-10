@@ -112,7 +112,8 @@ img {
 }
 
 // Fixes images in popup boxes from Google Translate
-.gmnoprint img {
+.gmnoprint 
+ {
   max-width: none;
 }
 
@@ -177,7 +178,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 25px;
   }
 }
 
