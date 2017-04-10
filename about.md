@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Me
-permalink: /Me
+title: About
+permalink: /About
 ---
 
 I am a generalist who likes exploring many intellectual fields such as Philosophy,Mathematics and Mathematical Statistics.  
