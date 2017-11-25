@@ -1,18 +1,253 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Slab" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/junction" type="text/css"/>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+ <!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'> -->
+ <title>Harshit Babbar </title>
+    <link rel="shortcut icon" type="image/png" href="symbol.jpg"  />
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<script>   
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#test").hide();
+    });
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+});
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+$(document).ready(function(){
+
+$('.type-it').typeIt({    
+});
+ });
+
+ 
+</script>
+
+<link rel="stylesheet" href="tt.css">
+</head>
+</head>
+<body >
+
+
+
+<div id="l1">
+<ul >
+  <li ><a href="tr1.html" style="color:#585858;font-family: 'JunctionRegular'; font-size:91%" target="_self"   id="home" onmouseover="home1()" onmouseleave="home2()"><!-- <span id="test" style="color:#585858;font-family: 'JunctionRegular'; font-size:91%"> -->Home<!-- </span> --></a></li>
+  <li><a href="#About"  style="color:#585858;font-family: 'JunctionRegular'; font-size:91%" id="about" onclick="about()" onmouseover="about11()" onmouseleave="about3()">About</a></li>
+
+  <!-- <li><a href="#Contact"  style="font-size: 110%" id="contact">Contact</a></li>  -->
+  <li class="dropdown">
+  
+    <a href="javascript:void(0)" class="dropbtn" style="font-size: 110%" ><span style="color:#585858;font-family: 'JunctionRegular'; font-size:91%">Projects &#9662;</a>
+    
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+
+
+  </li>
+  </ul>
+  </div>
+  <div id="l2">
+  <ul id="er">
+
+<li id="ak"><p><a><i class="fa fa-twitter"  style="color:#585858;font-size: 100%" id="twitter" onmouseover="twitter()" onmouseleave="twitter1()"></i></a></p></li>
+
+<li id="ak"><p><a><i class="fa fa-linkedin"  style="color:#585858;font-size: 100%" id="linkedin" onmouseover="linkedin()" onmouseleave="linkedin1()"></i></a></p></li>
+
+<li id="ak"><p><a><i class="fa fa-github"  style="color:#585858;font-size: 100%" id="github" onmouseover="github()" onmouseleave="github1()"></i></a></p></li>
+
+<li id="ak"><p><a><i class="fa fa-quora"  style="color:#585858;font-size: 100%" id="quora" onmouseover="quora()" onmouseleave="quora1()"></i></a></p></li>
+
+  </ul>
 </div>
+
+
+<div id="new2">
+</div>
+<div id="d">
+
+</div>
+<div id ="new6" >
+<div id ="new1" onmouseover="div()" onmouseleave="div1()">
+
+<div id="op">
+<p style="font-size: 124%;font-family: 'JunctionRegular';font-weight: 700">Akshay Babbar</p>
+<p style="font-size: 110%;font-family: 'JunctionRegular';color: #B0B0B0">Delhi,India</p>
+</div>
+<div id="op1">
+
+<p style="font-size:100%;font-weight: 700;color: #B0B0B0 ;font-family: 'JunctionRegular'; ">Skills</p>
+<div class="skill2"><!-- 
+<ul class="skills" >
+  <li class="skill1"><a href="#home" style="font-size: 85%;font-family: 'JunctionRegular';" id="home" onclick="home()" ><div id="df"><img src="https://www.python.org/static/opengraph-icon-200x200.png"></div></a></li>
+  <li class="skill1"><a href="#About"  style="font-size: 85%;font-family: 'JunctionRegular';" id="about" onclick="about()">R</a></li>
+ 
+
+  </li>
+  
+  
+</ul> -->
+</div>
+
+</div>
+<div id="op2">
+
+</div>
+
+</div>
+<div id ="new5">
+<h style="font-family: 'JunctionRegular'; color:#4DB6AC;">
+<strong>About</strong>
+</h>
+<p style="font-family: 'JunctionRegular'; ">
+I am a generalist who likes exploring many intellectual fields such as Philosophy,Mathematics and Mathematical Statistics.
+Though formally trained in Economics having a Masters Degree from <a href="http://www.econdse.org/" text-decoration="none" target="_blank" color="#4DB6AC">Delhi School of Economics</a>,University of Delhi,my interests are quite diverse.
+Though its rational to be a realist but will always be an idealist at heart.
+</p>
+</div>
+</div>
+<!-- <img id="har" src="https://img00.deviantart.net/31cf/i/2015/028/8/6/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg" > -->
+<script type="text/javascript">
+about1();
+function div()
+{
+  s=document.getElementById("new1");
+  s.style.border="1px solid #8BC34A";
+  s1=document.getElementById("har");
+  // s1.style.filter="blur(5px)";
+
+}
+function div1()
+{
+  s=document.getElementById("new1");
+  s.style.border="1px solid #607D8B";
+}
+function about1() {
+      s=document.getElementById("new5");
+      s.style.visibility="hidden";
+    }
+    function home1() {
+      s=document.getElementById("home");
+     // s.style.visibility="visible";
+        s.style.color="white";}
+        
+            function home2() {
+      s=document.getElementById("home");
+     // s.style.visibility="visible";
+        s.style.color="#585858";}
+      function about3() {
+        s=document.getElementById("about");
+     // s.style.visibility="visible";
+        s.style.color="#585858";
+      }
+          function about11() 
+          {
+            s=document.getElementById("about");
+     // s.style.visibility="visible";
+            s.style.color="white";
+          }
+function github() 
+          {
+            s=document.getElementById("github");
+     // s.style.visibility="visible";
+            s.style.color="white";
+          }
+          function github1() 
+          {
+            s=document.getElementById("github");
+     // s.style.visibility="visible";
+            s.style.color="#585858";
+          }
+          function twitter() 
+          {
+            s=document.getElementById("twitter");
+     // s.style.visibility="visible";
+            s.style.color="white";
+          }
+          function twitter1() 
+          {
+            s=document.getElementById("twitter");
+     // s.style.visibility="visible";
+            s.style.color="#585858";
+          }
+          function linkedin() 
+          {
+            s=document.getElementById("linkedin");
+     // s.style.visibility="visible";
+            s.style.color="white";
+          }
+          function linkedin1() 
+          {
+            s=document.getElementById("linkedin");
+     // s.style.visibility="visible";
+            s.style.color="#585858";
+          }
+          function quora() 
+          {
+            s=document.getElementById("quora");
+     // s.style.visibility="visible";
+            s.style.color="white";
+          }
+          function quora1() 
+          {
+            s=document.getElementById("quora");
+     // s.style.visibility="visible";
+            s.style.color="#585858";
+          }
+
+    function about() {
+      s=document.getElementById("new5");
+      s.style.visibility="visible";
+     //    $('#test').css({
+     //     'border-bottom': '0px solid white',
+     //     'color':'#585858'
+       
+     // });
+     //  $('#test1').css({
+     //     'border-bottom': '2px solid white',
+     //     'color':'white'
+       
+     // });
+   }
+    // }
+    // home();
+
+    // function home()
+    // {
+    //    $('#test1').css({
+    //      'border-bottom': '0px solid white',
+    //      'color':'#585858'
+       
+    //  });
+    //   $('#test').css({
+    //      'border-bottom': '2px solid white',
+    //      'color':'white'
+       
+    //  });
+ 
+    // }
+
+       
+      </script>
+<!-- //      $('#home').css({
+     //     'border-bottom': '0px solid white',
+     //     'color':'#C4DFE6'
+       
+     // });
+     //  $('#about').css({
+     //     'border-bottom': '2px solid white',
+     //     'color':'white'
+       
+     // }); -->
