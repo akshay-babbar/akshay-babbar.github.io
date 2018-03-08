@@ -34,16 +34,24 @@ $('.type-it').typeIt({
 </head>
 </head>
 <body >
+<!-- <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> -->
 
 <!-- <div  style="background: transparent;border:10px solid white;border-radius: 5px;"> -->
 <div class="big">
 <div class="navbar">
 
-<a href="index.html" style="border:1px solid black;font-family: '5thgradecursive-2';">Akshay Babbar</a>
-<a style="border:1px solid black;"></a>
-  <a href="index.html" style="color:grey;font-family: 'JunctionRegular';font-size: 91%;" target="_self"  id="home" onmouseover="home1()" onmouseleave="home2()" ><!-- <span id="test" style="color:#585858;font-family: 'JunctionRegular'; font-size:91%"> -->Home<!-- </span> --></a> 
-  <a href="#About"  style="color:grey;font-family: 'JunctionRegular';font-size: 91%; " id="about" onclick="about()" onmouseover="about11()" onmouseleave="about3()">About</a>
-<a href="webb.html" style="color:grey;font-family: 'JunctionRegular';font-size: 91%;" target="_self" >work</a>    
+<a href="index.html" style="border:1px solid  #26A69A;font-family: 'JunctionRegular';color:white;font-weight: 800;text-decoration:underline; ">Akshay Babbar</a>
+<a style="border:1px solid #26A69A;"></a>
+  <a href="index.html" style="color:#B2DFDB;font-family: 'JunctionRegular';font-size: 91%;" target="_self"  id="home" onmouseover="home1()" onmouseleave="home2()"><!-- onmouseover="home1()" onmouseleave="home2()" -->Home</a> 
+  <a href="#About"  style="color:#B2DFDB;font-family: 'JunctionRegular';font-size: 91%; " id="about" onclick="about()" onmouseover="about11()" onmouseleave="about3()">About</a>
+<a href="webb.html" style="color:#B2DFDB;font-family: 'JunctionRegular';font-size: 91%;" target="_self" >work</a>    
   <div class="dropdown">
             <button class="dropbtn">Projects 
                 <i class="fa fa-caret-down"></i>
@@ -61,11 +69,11 @@ $('.type-it').typeIt({
 
 <div class="navbar1">
 <a></a><a></a>
-<a><i class="fa fa-twitter"  style="color:#585858;font-size: 110%" id="twitter" onmouseover="twitter()" onmouseleave="twitter1()"></i></a>
+<a><i class="fa fa-twitter"  style="color:#B2DFDB;font-size: 110%" id="twitter" onmouseover="twitter()" onmouseleave="twitter1()"></i></a>
 
-<a><i class="fa fa-linkedin"  style="color:#585858;font-size: 110%" id="linkedin" onmouseover="linkedin()" onmouseleave="linkedin1()"></i></a>
+<a><i class="fa fa-linkedin"  style="color:#B2DFDB;font-size: 110%" id="linkedin" onmouseover="linkedin()" onmouseleave="linkedin1()"></i></a>
 
-<a><i class="fa fa-github"  style="color:#585858;font-size: 110%" id="github" onmouseover="github()" onmouseleave="github1()"></i></a></p>
+<a><i class="fa fa-github"  style="color:#B2DFDB;font-size: 110%" id="github" onmouseover="github()" onmouseleave="github1()"></i></a></p>
 
 </div>
   
@@ -115,7 +123,7 @@ $('.type-it').typeIt({
 
 <!-- <div style="background:transparent;height:17vh ; width:100%;"></div>
 <div style="background-color:#02C8A7;opacity:.65;margin-left:31vw;height:50vh ; border-radius: 10px;width:38vw;"><div style="background-color:#02C8A7;margin-left:2vw;margin-top:10vh;height:40vh ;border:2px solid #7CDBD5; border-radius: 10px;width:34vw;"></div></div> -->
-<!-- <h style="font-size: 400%;color:#880E4F; font-family: '5thgradecursive-2';font-weight: 900;margin:0 auto;margin-left: 20vw;">     Hey there</h><p style="font-size: 200%;color:#880E4F; font-family: 'JunctionRegular';font-weight: 600;margin:0 auto;margin-left: 40vw;"> My name is Akshay Babbar</p> -->
+<h style="font-size: 400%;color:#880E4F; font-family: '5thgradecursive-2';font-weight: 900;margin:0 auto;margin-left: 20vw;">     Hey there</h><p style="font-size: 200%;color:#880E4F; font-family: 'JunctionRegular';font-weight: 600;margin:0 auto;margin-left: 40vw;"> My name is Akshay Babbar</p>
 
 
 
@@ -135,7 +143,7 @@ $('.type-it').typeIt({
 
 
 
-<!-- <div id ="new5" style="visibility: hidden;">
+<div id ="new5" style="visibility: hidden;">
 <h style="font-family: 'JunctionRegular'; color:#4DB6AC;">
 <strong>About</strong>
 </h>
@@ -145,7 +153,43 @@ Though formally trained in Economics having a Masters Degree from <a href="http:
 Though its rational to be a realist but will always be an idealist at heart.
 </p>
 </div>
-</div> -->
+</div>
+<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="200px" data-numposts="5"></div>
+<!-- <div id="disqus_thread"></div>
+ -->
+<script>
+// var disqus_developer = 1;
+   
+    
+    // var disqus_config = function () {
+        // this.page.url = "/index.html";  // Replace PAGE_URL with your page's canonical URL variable
+        // this.page.identifier = 27588; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    // };
+    
+    // (function() {
+    //     var d = document, s = d.createElement('script');
+    //     s.type = 'text/javascript'; s.async = true;
+        
+    //     s.src = 'https://akshay-babbar-github-io.disqus.com/embed.js';
+        
+    //     s.setAttribute('data-timestamp', +new Date());
+    //     (d.head || d.body).appendChild(s);
+    // })();
+</script>
+<!-- <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript> -->
+    <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+      var disqus_shortname = 'akshay';
+
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 <script type="text/javascript">
 /* When the user clicks on the button, 
@@ -194,11 +238,11 @@ function about1() {
             function home2() {
       s=document.getElementById("home");
      // s.style.visibility="visible";
-        s.style.color="grey";}
+        s.style.color="#B2DFDB";}
       function about3() {
         s=document.getElementById("about");
      // s.style.visibility="visible";
-        s.style.color="grey";
+        s.style.color="#B2DFDB";
       }
           function about11() 
           {
@@ -216,7 +260,7 @@ function github()
           {
             s=document.getElementById("github");
      // s.style.visibility="visible";
-            s.style.color="#585858";
+            s.style.color="#B2DFDB";
           }
           function twitter() 
           {
@@ -228,7 +272,7 @@ function github()
           {
             s=document.getElementById("twitter");
      // s.style.visibility="visible";
-            s.style.color="#585858";
+            s.style.color="#B2DFDB";
           }
           function linkedin() 
           {
@@ -240,7 +284,7 @@ function github()
           {
             s=document.getElementById("linkedin");
      // s.style.visibility="visible";
-            s.style.color="#585858";
+            s.style.color="#B2DFDB";
           }
           function quora() 
           {
@@ -252,7 +296,7 @@ function github()
           {
             s=document.getElementById("quora");
      // s.style.visibility="visible";
-            s.style.color="#585858";
+            s.style.color="#B2DFDB";
           }
 
     function about() {

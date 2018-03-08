@@ -32,7 +32,9 @@ body {
 /*background-image: url("http://deda.me/images/background_tile.jpg");
 background-image: url("http://applecrumbs.com/img/home/billboard-bg.jpg");*/
 background-color: rgb(227,221,210);
-background-image: url("https://inspirationhut.net/wp-content/uploads/2014/09/black-paper.jpg");
+/*background-image: url("https://inspirationhut.net/wp-content/uploads/2014/09/black-paper.jpg");*/
+background-color: #ECEFF1;
+background-color: #F8F8F8;
 /*background-image: url("https://raw.githubusercontent.com/owenversteeg/min/gh-pages/pattern.png");*/
 
  }
@@ -311,8 +313,10 @@ border: 1px solid #E0E0E0;
     overflow: hidden;
     background-color:#BCAAA4;
     background-color:#212121;
+    
     background-color: black;
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    background-color: #26A69A;
+    /*box-shadow: 0px 5px 0px 0px rgba(38,166,154,0.5);*/
     opacity: 1;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -323,7 +327,7 @@ border: 1px solid #E0E0E0;
     margin-top: 34px;
     float: right;
     font-size: 17px;
-    color: white;
+    color: #B2DFDB;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
@@ -342,8 +346,10 @@ border: 1px solid #E0E0E0;
     overflow: hidden;
     float: left;
     background-color: #212121;
+
     background-color: black;
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    background-color: #26A69A;
+    /*box-shadow: 0px 5px 0px 0px rgba(38,166,154,0.5);*/
     /*#862f48*/
     /*font-family: Arial, Helvetica, sans-serif;*/
 }
@@ -351,11 +357,11 @@ border: 1px solid #E0E0E0;
 .navbar a {
     margin-right: 10px;
     margin-top: 34px;
-     border: 1px solid grey;
+     border: 1px solid #B2DFDB;
      border-radius: 2px;
     float: left;
     font-size: 25px;
-    color: white;
+    color: #B2DFDB;
     text-align: center;
     padding: 13px 13px;
     text-decoration: none;
@@ -365,7 +371,7 @@ border: 1px solid #E0E0E0;
     float: left;
     overflow: hidden;
      border-radius: 2px;
-    border: 1px solid grey;
+    border: 1px solid #B2DFDB;
     height:38px;
     margin-top: 35px;
 }
@@ -373,12 +379,12 @@ border: 1px solid #E0E0E0;
 .dropdown .dropbtn {
     margin-right: 10px;
     margin-top: 35px;
-     border: 1px solid grey;
+     border: 1px solid #B2DFDB;
      border-radius: 2px;
     font-size: 13px;    
     border: none;
     outline: none;
-    color: grey;
+    color: #B2DFDB;
     padding: 13px 13px;
    /* padding-top: 16px;*/
     /*padding-bottom: 16px;*/
