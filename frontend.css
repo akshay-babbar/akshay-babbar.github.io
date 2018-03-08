@@ -22,22 +22,7 @@
  font-family: '5thgradecursive-2';
   src: url('5thgradecursive-2.ttf');
 }
-body {
-  height:100vh;
- margin: 0;
-  width:100vw;
 
- overflow: hidden;
-
-/*background-image: url("http://deda.me/images/background_tile.jpg");
-background-image: url("http://applecrumbs.com/img/home/billboard-bg.jpg");*/
-background-color: rgb(227,221,210);
-/*background-image: url("https://inspirationhut.net/wp-content/uploads/2014/09/black-paper.jpg");*/
-background-color: #ECEFF1;
-background-color: #F8F8F8;
-/*background-image: url("https://raw.githubusercontent.com/owenversteeg/min/gh-pages/pattern.png");*/
-
- }
 
 
 img
